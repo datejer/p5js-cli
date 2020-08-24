@@ -1,0 +1,34 @@
+{
+	"name": "p5js-cli",
+	"version": "1.0.0",
+	"description": "A small CLI tool for creating new p5.js sketches.",
+	"main": "index.js",
+	"bin": {
+		"p5": "./index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"inquirer": "^7.3.3",
+		"nodegit": "^0.27.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/datejer/p5js-cli.git"
+	},
+	"keywords": [
+		"p5",
+		"js",
+		"sketch",
+		"cli"
+	],
+	"author": "ejer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/datejer/p5js-cli/issues"
+	},
+	"homepage": "https://github.com/datejer/p5js-cli#readme"
+}
