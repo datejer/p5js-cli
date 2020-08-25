@@ -1,6 +1,6 @@
 {
 	"name": "p5js-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A small CLI tool for creating new p5.js sketches.",
 	"main": "index.js",
 	"bin": {
@@ -9,6 +9,7 @@
 	"dependencies": {
 		"chalk": "^4.1.0",
 		"inquirer": "^7.3.3",
+		"node-fetch": "^2.6.0",
 		"nodegit": "^0.27.0"
 	},
 	"repository": {
