@@ -48,7 +48,7 @@ npm install -g p5js-cli
 4. Navigate into your newly created project directory. `cd <project name>`
 5. Done! 🎉 Go crazy with your new p5.js sketch!
 
-###p5 serve
+### p5 serve
 1. Open your favorite terminal of choice.
 2. Navigate to a directory with the files you want to serve.
 3. Run `p5 serve <port>` (port is optional, defaults to 3000).
